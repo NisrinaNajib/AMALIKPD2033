@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+public class AMALI2033 {
+    
+    public static String dapatkanNama (Scanner input){
+        System.out.print("Masukkan nama pekerja:")
+                return input.nextLine();
+    }
+    public static int dapatkanbilanganharibekerja(Scanner input){
+        int bilangan;
+         while (true){
+            try {
+                System.out.print("Masukkan jumlah hari bekerja:");
+                bilangan = Integer.parseInt (input.nextLine());
+                if (bilangan >=0 && bilangan <=31){
+                }
+                break;
+                
+                }else{
+                        System.out.println("Bilangan hari tidak melebihi 31 atau kurang dari 0 hari.");
+                        }
+         }catch (NumberFormatException){
+                 System.out.println("Sila masukkan nombor yang sah");
+                 }
+                }
+    return bilangan;
+}
+public static double kirabilanganhari(int bilangan,double bilangan seHari){
+
+return bilangan*kadar SeHari ){
+                
+                        
+             public static double kiraElaun(int hari,double kadarSehari){
+return bilangan*kadarSeHARI;
+}
+
+public static void paparRumusan(String nama,int jarak,double jumlahElaun){
+System.out.println("\nMasukkan nama pekerja:");
+System.out.println(nama);
+System.out.println("Masukkan bilangan hari:");
+System.out.println(bilangan);
+System.out.println("\nRumusan Elaun gaji bagi" +nama);
+System.out.println("Jumlah bilangan hari:"+hari+"sehari");
+System.out.printf("JUMLAH ELAUN ADALAH:RM%.2f\n",jumlahElaun);
+}
+
+public static void main(String[]args){
+final double Bilangan_SE_HARI
